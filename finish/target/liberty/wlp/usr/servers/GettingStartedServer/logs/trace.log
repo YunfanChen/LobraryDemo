@@ -1,0 +1,368 @@
+********************************************************************************
+product = Open Liberty 19.0.0.6 (wlp-1.0.29.cl190620190617-1530)
+wlp.install.dir = /Users/yunfanchen/Documents/GitHub/Liberty/finish/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home
+java.version = 12.0.1
+java.runtime = Java(TM) SE Runtime Environment (12.0.1+12)
+os = Mac OS X (10.14.5; x86_64) (en_CN)
+process = 61233@yunfanchens-mbp.cn.ibm.com
+trace.specification = *=info:com.ibm.ws.microprofile.health.*=all
+********************************************************************************
+[7/5/19, 15:05:15:404 CST] 00000017 id=00000000 com.ibm.ws.logging.internal.TraceSpecification               I TRAS0018I: The trace state has been changed. The new trace state is *=info:com.ibm.ws.microprofile.health.*=all.
+[7/5/19, 15:05:15:668 CST] 00000001 id=00000000 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.006 seconds
+[7/5/19, 15:05:15:686 CST] 0000001d id=00000000 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[7/5/19, 15:05:15:846 CST] 00000015 id=00000000 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[7/5/19, 15:05:16:090 CST] 00000015 id=00000000 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[7/5/19, 15:05:16:310 CST] 00000022 id=00000000 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[7/5/19, 15:05:16:453 CST] 00000015 id=00000000 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[7/5/19, 15:05:16:455 CST] 00000015 id=00000000 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[7/5/19, 15:05:16:456 CST] 00000015 id=00000000 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[7/5/19, 15:05:16:575 CST] 00000026 id=00000000 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.020 seconds.
+[7/5/19, 15:05:16:592 CST] 00000015 id=00000000 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[7/5/19, 15:05:16:708 CST] 00000017 id=00000000 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /Users/yunfanchen/Documents/GitHub/Liberty/finish/target/liberty/wlp/usr/servers/GettingStartedServer/resources/security/key.p12 of type: PKCS12
+[7/5/19, 15:05:16:743 CST] 00000015 id=00000000 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[7/5/19, 15:05:16:811 CST] 0000002b id=00000000 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[7/5/19, 15:05:16:888 CST] 00000015 id=00000000 SessionMgrComponentImpl                                      I initialize SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[7/5/19, 15:05:17:020 CST] 00000015 id=5713067d microprofile.health.spi.impl.HealthCheckResponseProviderImpl > activate Entry 
+[7/5/19, 15:05:17:023 CST] 00000015 id=5713067d microprofile.health.spi.impl.HealthCheckResponseProviderImpl < activate Exit 
+[7/5/19, 15:05:17:455 CST] 00000033 id=00000000 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application getting-started.
+[7/5/19, 15:05:17:457 CST] 00000033 id=00000000 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The getting-started application is using the loose application definition at the /Users/yunfanchen/Documents/GitHub/Liberty/finish/target/liberty/wlp/usr/servers/GettingStartedServer/apps/getting-started.war.xml location.
+[7/5/19, 15:05:17:658 CST] 00000030 id=00000000 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[7/5/19, 15:05:17:655 CST] 00000031 id=00000000 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PrivateMicroProfileMetrics.
+[7/5/19, 15:05:17:658 CST] 00000032 id=00000000 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[7/5/19, 15:05:17:659 CST] 00000032 id=00000000 com.ibm.ws.webcontainer.osgi.DynamicVirtualHost              I addWebApplication SRVE0250I: Web Module health has been bound to default_host.
+[7/5/19, 15:05:17:659 CST] 00000030 id=00000000 com.ibm.ws.webcontainer.osgi.DynamicVirtualHost              I addWebApplication SRVE0250I: Web Module ibm/api has been bound to default_host.
+[7/5/19, 15:05:17:659 CST] 00000031 id=00000000 com.ibm.ws.webcontainer.osgi.DynamicVirtualHost              I addWebApplication SRVE0250I: Web Module PrivateMicroProfileMetrics has been bound to default_host.
+[7/5/19, 15:05:17:660 CST] 00000032 id=00000000 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/health/
+[7/5/19, 15:05:17:663 CST] 00000031 id=00000000 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/metrics/
+[7/5/19, 15:05:17:663 CST] 00000030 id=00000000 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/ibm/api/
+[7/5/19, 15:05:17:709 CST] 00000026 id=00000000 SessionContextRegistryImpl                                   I getSessionContext SESN0176I: A new session context will be created for application key default_host/health
+[7/5/19, 15:05:17:709 CST] 0000002a id=00000000 SessionContextRegistryImpl                                   I getSessionContext SESN0176I: A new session context will be created for application key default_host/ibm/api
+[7/5/19, 15:05:17:709 CST] 00000029 id=00000000 SessionContextRegistryImpl                                   I getSessionContext SESN0176I: A new session context will be created for application key default_host/metrics
+[7/5/19, 15:05:17:719 CST] 00000026 id=00000000 IDGeneratorImpl                                              I IDGeneratorImpl SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[7/5/19, 15:05:17:719 CST] 00000033 id=00000000 org.jboss.weld.bootstrap.WeldStartup                         I <clinit> WELD-000900: 3.1.1 (Final)
+[7/5/19, 15:05:17:727 CST] 00000029 id=00000000 IDGeneratorImpl                                              I IDGeneratorImpl SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[7/5/19, 15:05:17:728 CST] 0000002a id=00000000 IDGeneratorImpl                                              I IDGeneratorImpl SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[7/5/19, 15:05:17:743 CST] 00000026 id=00000000 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[7/5/19, 15:05:17:781 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > activate Entry  
+                                                                                                               org.apache.felix.scr.impl.manager.ComponentContextImpl@140da3de
+                                                                                                               {service.vendor=IBM, component.name=com.ibm.ws.microprofile.health.internal.AppTrackerImpl, component.id=305}
+[7/5/19, 15:05:17:782 CST] 00000026 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 AppTrackerImpl is activated
+[7/5/19, 15:05:17:782 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < activate Exit 
+[7/5/19, 15:05:17:790 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > onStartup Entry  
+                                                                                                               null
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@a0e3f62[com.ibm.ws.rest.handler#com.ibm.ws.rest.handler]
+[7/5/19, 15:05:17:791 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > setAppModuleNames Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@a0e3f62[com.ibm.ws.rest.handler#com.ibm.ws.rest.handler]
+[7/5/19, 15:05:17:791 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > onStartup Entry  
+                                                                                                               [interface org.eclipse.microprofile.health.HealthCheck]
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@355ae1c9[com.ibm.ws.microprofile.health#com.ibm.ws.microprofile.health]
+[7/5/19, 15:05:17:791 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > isOsgiApp Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@a0e3f62[com.ibm.ws.rest.handler#com.ibm.ws.rest.handler]
+[7/5/19, 15:05:17:791 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > setAppModuleNames Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@355ae1c9[com.ibm.ws.microprofile.health#com.ibm.ws.microprofile.health]
+[7/5/19, 15:05:17:791 CST] 0000002a id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Servet context attr for key = osgi-bundlecontext, = org.eclipse.osgi.internal.framework.BundleContextImpl@78aaa488
+[7/5/19, 15:05:17:791 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > isOsgiApp Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@355ae1c9[com.ibm.ws.microprofile.health#com.ibm.ws.microprofile.health]
+[7/5/19, 15:05:17:791 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < isOsgiApp Exit  
+                                                                                                               true
+[7/5/19, 15:05:17:791 CST] 00000026 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Servet context attr for key = osgi-bundlecontext, = org.eclipse.osgi.internal.framework.BundleContextImpl@5ddfa670
+[7/5/19, 15:05:17:791 CST] 0000002a id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Detected OSGi app, so won't track for health check; appName =  
+                                                                                                               com.ibm.ws.rest.handler
+[7/5/19, 15:05:17:791 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < isOsgiApp Exit  
+                                                                                                               true
+[7/5/19, 15:05:17:791 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < setAppModuleNames Exit  
+                                                                                                               null
+[7/5/19, 15:05:17:791 CST] 00000026 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Detected OSGi app, so won't track for health check; appName =  
+                                                                                                               com.ibm.ws.microprofile.health
+[7/5/19, 15:05:17:791 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > onStartup Entry  
+                                                                                                               null
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@423ae168[com.ibm.ws.microprofile.metrics.private#com.ibm.ws.microprofile.metrics.private]
+[7/5/19, 15:05:17:792 CST] 0000002a id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < onStartup Exit 
+[7/5/19, 15:05:17:792 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < setAppModuleNames Exit  
+                                                                                                               null
+[7/5/19, 15:05:17:792 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > setAppModuleNames Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@423ae168[com.ibm.ws.microprofile.metrics.private#com.ibm.ws.microprofile.metrics.private]
+[7/5/19, 15:05:17:792 CST] 00000026 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < onStartup Exit 
+[7/5/19, 15:05:17:792 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > isOsgiApp Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@423ae168[com.ibm.ws.microprofile.metrics.private#com.ibm.ws.microprofile.metrics.private]
+[7/5/19, 15:05:17:792 CST] 00000029 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Servet context attr for key = osgi-bundlecontext, = org.eclipse.osgi.internal.framework.BundleContextImpl@748cdd41
+[7/5/19, 15:05:17:792 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < isOsgiApp Exit  
+                                                                                                               true
+[7/5/19, 15:05:17:792 CST] 00000029 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Detected OSGi app, so won't track for health check; appName =  
+                                                                                                               com.ibm.ws.microprofile.metrics.private
+[7/5/19, 15:05:17:792 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < setAppModuleNames Exit  
+                                                                                                               null
+[7/5/19, 15:05:17:793 CST] 00000029 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < onStartup Exit 
+[7/5/19, 15:05:17:866 CST] 00000029 id=00000000 com.ibm.ws.webcontainer.servlet.ServletWrapper               I init SRVE0242I: [com.ibm.ws.microprofile.metrics.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Initialization successful.
+[7/5/19, 15:05:17:912 CST] 0000002b id=00000000 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/yunfanchen/Documents/GitHub/Liberty/finish/target/liberty/wlp/usr/servers/GettingStartedServer/logs/state/plugin-cfg.xml.
+[7/5/19, 15:05:18:354 CST] 00000033 id=00000000 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[7/5/19, 15:05:18:354 CST] 00000033 id=00000000 com.ibm.ws.webcontainer.osgi.DynamicVirtualHost              I addWebApplication SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[7/5/19, 15:05:18:355 CST] 00000033 id=00000000 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/
+[7/5/19, 15:05:18:356 CST] 00000033 id=00000000 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application getting-started started in 0.901 seconds.
+[7/5/19, 15:05:18:357 CST] 00000031 id=00000000 SessionContextRegistryImpl                                   I getSessionContext SESN0176I: A new session context will be created for application key default_host/
+[7/5/19, 15:05:18:357 CST] 00000031 id=00000000 IDGeneratorImpl                                              I IDGeneratorImpl SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[7/5/19, 15:05:18:367 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > onStartup Entry  
+                                                                                                               [class io.openliberty.sample.system.SystemHealth, interface org.eclipse.microprofile.health.HealthCheck]
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@132034a4[getting-started#getting-started.war]
+[7/5/19, 15:05:18:367 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > setAppModuleNames Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@132034a4[getting-started#getting-started.war]
+[7/5/19, 15:05:18:368 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > isOsgiApp Entry  
+                                                                                                               com.ibm.ws.webcontainer40.osgi.webapp.WebApp40@132034a4[getting-started#getting-started.war]
+[7/5/19, 15:05:18:368 CST] 00000031 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 Servet context attr for key = osgi-bundlecontext, = null
+[7/5/19, 15:05:18:368 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < isOsgiApp Exit  
+                                                                                                               false
+[7/5/19, 15:05:18:368 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > addAppModuleNames Entry  
+                                                                                                               getting-started
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:05:18:368 CST] 00000031 id=00000000 com.ibm.ws.microprofile.health.internal.AppTrackerImpl       3 addAppModuleNames(): modules added = {getting-started=[getting-started.war]} for app: getting-started
+[7/5/19, 15:05:18:402 CST] 00000031 id=00000000 ws.microprofile.health.internal.AppTrackerImpl$AppModuleName > <init> Entry 
+[7/5/19, 15:05:18:403 CST] 00000031 id=1af90b01 ws.microprofile.health.internal.AppTrackerImpl$AppModuleName < <init> Exit  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl$AppModuleName@1af90b01
+[7/5/19, 15:05:18:403 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < addAppModuleNames Exit  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl$AppModuleName@1af90b01
+[7/5/19, 15:05:18:403 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < setAppModuleNames Exit  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl$AppModuleName@1af90b01
+[7/5/19, 15:05:18:439 CST] 00000031 id=00000000 icroprofile.health.internal.AppTrackerServletContextListener > <init> Entry  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl$AppModuleName@1af90b01
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl@76219dcf
+[7/5/19, 15:05:18:439 CST] 00000031 id=1b07d7f6 icroprofile.health.internal.AppTrackerServletContextListener < <init> Exit  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerServletContextListener@1b07d7f6
+[7/5/19, 15:05:18:439 CST] 00000031 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < onStartup Exit 
+[7/5/19, 15:05:18:445 CST] 00000026 id=00000000 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/yunfanchen/Documents/GitHub/Liberty/finish/target/liberty/wlp/usr/servers/GettingStartedServer/logs/state/plugin-cfg.xml.
+[7/5/19, 15:05:18:450 CST] 00000031 id=1b07d7f6 icroprofile.health.internal.AppTrackerServletContextListener > contextInitialized Entry  
+                                                                                                               javax.servlet.ServletContextEvent[source=com.ibm.ws.webcontainer40.facade.ServletContextFacade40@7677a00e]
+[7/5/19, 15:05:18:450 CST] 00000031 id=1b07d7f6 icroprofile.health.internal.AppTrackerServletContextListener < contextInitialized Exit 
+[7/5/19, 15:05:18:451 CST] 0000001d id=00000000 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-2.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonp-1.1, mpConfig-1.3, mpHealth-1.0, mpMetrics-1.1, servlet-4.0, ssl-1.0].
+[7/5/19, 15:05:18:452 CST] 0000001d id=00000000 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.786 seconds.
+[7/5/19, 15:05:18:452 CST] 0000001d id=00000000 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The GettingStartedServer server is ready to run a smarter planet. The GettingStartedServer server started in 3.794 seconds.
+[7/5/19, 15:06:22:824 CST] 000000a5 id=00000000 com.ibm.ws.webcontainer.servlet.ServletWrapper               I init SRVE0242I: [com.ibm.ws.microprofile.health] [/health] [HealthCheckServlet]: Initialization successful.
+[7/5/19, 15:06:22:825 CST] 000000a5 id=4841e55b m.ws.microprofile.health.internal.servlet.HealthCheckServlet > service Entry  
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletRequest40@974875c
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletResponse40@79067f90
+[7/5/19, 15:06:22:825 CST] 000000a5 id=4841e55b m.ws.microprofile.health.internal.servlet.HealthCheckServlet > findHealthService Entry  
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletRequest40@974875c
+[7/5/19, 15:06:22:879 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > setClassLoaderContextProvider Entry  
+                                                                                                               com.ibm.ws.classloader.context.internal.ClassloaderContextProviderImpl@78c429c
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < setClassLoaderContextProvider Exit 
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > setClassLoaderIdentifierService Entry  
+                                                                                                               com.ibm.ws.classloading.internal.ClassLoadingServiceImpl@53fc327c
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < setClassLoaderIdentifierService Exit 
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > setContextService Entry  
+                                                                                                               com.ibm.ws.context.service.serializable.ThreadContextManager@5d1a3222
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < setContextService Exit 
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > setJeeMetaDataContextProvider Entry  
+                                                                                                               com.ibm.ws.javaee.metadata.context.internal.JEEMetadataContextProviderImpl@386713bf
+[7/5/19, 15:06:22:880 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < setJeeMetaDataContextProvider Exit 
+[7/5/19, 15:06:22:881 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > setMetaDataIdentifierService Entry  
+                                                                                                               com.ibm.ws.container.service.metadata.internal.MetaDataServiceImpl@25663da2
+[7/5/19, 15:06:22:881 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < setMetaDataIdentifierService Exit 
+[7/5/19, 15:06:22:924 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl > <init> Entry 
+[7/5/19, 15:06:22:924 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl < <init> Exit  
+                                                                                                               com.ibm.ws.microprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl@3e304a9d
+[7/5/19, 15:06:22:971 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl > <init> ENTRY
+[7/5/19, 15:06:22:971 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl < <init> RETURN com.ibm.ws.microprofile.health.services.impl.HealthExecutorImpl@57e962a7
+[7/5/19, 15:06:22:972 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl > setAppModuleContextService ENTRY com.ibm.ws.microprofile.health.services.impl.AppModuleContextService@113195a4
+[7/5/19, 15:06:22:973 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl < setAppModuleContextService RETURN
+[7/5/19, 15:06:22:973 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl > setHealthCheckApplicationBeanInvoker ENTRY com.ibm.ws.microprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl@3e304a9d
+[7/5/19, 15:06:22:973 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl < setHealthCheckApplicationBeanInvoker RETURN
+[7/5/19, 15:06:22:973 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl > setJ2EENameFactory ENTRY com.ibm.ws.container.service.metadata.internal.J2EENameFactoryImpl@77df0d75
+[7/5/19, 15:06:22:973 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl < setJ2EENameFactory RETURN
+[7/5/19, 15:06:23:027 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl > setAppTracker Entry  
+                                                                                                               com.ibm.ws.microprofile.health.internal.AppTrackerImpl@76219dcf
+[7/5/19, 15:06:23:028 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl < setAppTracker Exit 
+[7/5/19, 15:06:23:028 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl > setHealthExecutor Entry  
+                                                                                                               com.ibm.ws.microprofile.health.services.impl.HealthExecutorImpl@57e962a7
+[7/5/19, 15:06:23:028 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl < setHealthExecutor Exit 
+[7/5/19, 15:06:23:029 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl > activate Entry  
+                                                                                                               org.apache.felix.scr.impl.manager.ComponentContextImpl@5a69988a
+                                                                                                               {service.vendor=IBM, component.name=com.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl, component.id=306}
+[7/5/19, 15:06:23:029 CST] 000000a5 id=00000000 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl 3 HealthCheckServiceImpl is activated
+[7/5/19, 15:06:23:030 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl < activate Exit 
+[7/5/19, 15:06:23:031 CST] 000000a5 id=4841e55b m.ws.microprofile.health.internal.servlet.HealthCheckServlet < findHealthService Exit 
+[7/5/19, 15:06:23:031 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl > performHealthCheck Entry  
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletRequest40@974875c
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletResponse40@79067f90
+[7/5/19, 15:06:23:031 CST] 000000a5 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > getAppNames Entry 
+[7/5/19, 15:06:23:031 CST] 000000a5 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < getAppNames Exit  
+                                                                                                               [getting-started]
+[7/5/19, 15:06:23:078 CST] 000000a5 id=00000000 .microprofile.health.internal.HealthCheckHttpResponseBuilder > <init> Entry 
+[7/5/19, 15:06:23:079 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < <init> Exit  
+                                                                                                               com.ibm.ws.microprofile.health.internal.HealthCheckHttpResponseBuilder@6a47e013
+[7/5/19, 15:06:23:080 CST] 000000a5 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       > getModuleNames Entry  
+                                                                                                               getting-started
+[7/5/19, 15:06:23:080 CST] 000000a5 id=76219dcf com.ibm.ws.microprofile.health.internal.AppTrackerImpl       < getModuleNames Exit  
+                                                                                                               [getting-started.war]
+[7/5/19, 15:06:23:080 CST] 000000a5 id=00000000 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl 3 In performHealthCheck(): appName = getting-started, moduleName = getting-started.war
+[7/5/19, 15:06:23:080 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl > runHealthChecks ENTRY getting-started getting-started.war
+[7/5/19, 15:06:23:080 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > createContextualProxy Entry  
+                                                                                                               {javax.enterprise.concurrent.IDENTITY_NAME=mp.healthcheck.proxy, com.ibm.ws.concurrent.TASK_OWNER=mp.healthcheck.runtime}
+                                                                                                               getting-started#getting-started.war
+                                                                                                               com.ibm.ws.microprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl@3e304a9d
+                                                                                                               interface com.ibm.ws.microprofile.health.services.HealthCheckCDIBeanInvoker
+[7/5/19, 15:06:23:080 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > createThreadContext Entry  
+                                                                                                               {javax.enterprise.concurrent.IDENTITY_NAME=mp.healthcheck.proxy, com.ibm.ws.concurrent.TASK_OWNER=mp.healthcheck.runtime}
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:06:23:080 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > getContextClassLoaderIdentifier Entry  
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:06:23:080 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > getComponentType Entry  
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:06:23:118 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              > isEmpty Entry  
+                                                                                                               null
+[7/5/19, 15:06:23:118 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              < isEmpty Exit  
+                                                                                                               true
+[7/5/19, 15:06:23:119 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < getComponentType Exit  
+                                                                                                               WEB
+[7/5/19, 15:06:23:119 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              > isEmpty Entry  
+                                                                                                               WebModule:getting-started#getting-started.war
+[7/5/19, 15:06:23:119 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              < isEmpty Exit  
+                                                                                                               false
+[7/5/19, 15:06:23:120 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < getContextClassLoaderIdentifier Exit  
+                                                                                                               WebModule:getting-started#getting-started.war
+[7/5/19, 15:06:23:121 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > getMetaDataIdentifier Entry  
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:06:23:121 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService > getComponentType Entry  
+                                                                                                               getting-started#getting-started.war
+[7/5/19, 15:06:23:121 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              > isEmpty Entry  
+                                                                                                               null
+[7/5/19, 15:06:23:121 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.util.StringUtils              < isEmpty Exit  
+                                                                                                               true
+[7/5/19, 15:06:23:121 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < getComponentType Exit  
+                                                                                                               WEB
+[7/5/19, 15:06:23:121 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < getMetaDataIdentifier Exit  
+                                                                                                               WEB#getting-started#getting-started.war
+[7/5/19, 15:06:23:129 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < createThreadContext Exit  
+                                                                                                               ThreadContextDescriptorImpl@3cf506f8[com.ibm.ws.javaee.metadata.context.provider, com.ibm.ws.security.context.provider, com.ibm.ws.classloader.context.provider, com.ibm.ws.transaction.context.provider]
+[7/5/19, 15:06:23:132 CST] 000000a5 id=113195a4 ws.microprofile.health.services.impl.AppModuleContextService < createContextualProxy Exit  
+                                                                                                               com.ibm.ws.microprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl@3e304a9d
+[7/5/19, 15:06:23:136 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl > checkAllBeans Entry 
+[7/5/19, 15:06:23:136 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl > getHealthCheckBeans Entry 
+[7/5/19, 15:06:23:169 CST] 0000004a id=00000000 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=178)] I Setting the server's publish address to be /system/
+[7/5/19, 15:06:23:211 CST] 000000a5 id=00000000 profile.health.services.impl.HealthCheckCDIBeanInvokerImpl$1 > <init> Entry  
+                                                                                                               com.ibm.ws.microprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl@3e304a9d
+[7/5/19, 15:06:23:211 CST] 000000a5 id=13d075df profile.health.services.impl.HealthCheckCDIBeanInvokerImpl$1 < <init> Exit  
+                                                                                                               @org.eclipse.microprofile.health.Health()
+[7/5/19, 15:06:23:212 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl 1 Bean Found: HealthCheck beanClass = class io.openliberty.sample.system.SystemHealth, class = class org.jboss.weld.bean.ManagedBean, name = null
+[7/5/19, 15:06:23:223 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl < getHealthCheckBeans Exit  
+                                                                                                               [io.openliberty.sample.system.SystemHealth@49bf361c]
+[7/5/19, 15:06:23:226 CST] 000000a5 id=5713067d microprofile.health.spi.impl.HealthCheckResponseProviderImpl > createResponseBuilder Entry 
+[7/5/19, 15:06:23:267 CST] 000000a5 id=00000000 m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > <init> Entry 
+[7/5/19, 15:06:23:268 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < <init> Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = null
+	state = null
+	data = Optional[{}]
+[7/5/19, 15:06:23:268 CST] 000000a5 id=5713067d microprofile.health.spi.impl.HealthCheckResponseProviderImpl < createResponseBuilder Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = null
+	state = null
+	data = Optional[{}]
+[7/5/19, 15:06:23:268 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > name Entry  
+                                                                                                               SystemResource
+[7/5/19, 15:06:23:268 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > validateName Entry  
+                                                                                                               SystemResource
+[7/5/19, 15:06:23:269 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < validateName Exit 
+[7/5/19, 15:06:23:269 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < name Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = SystemResource
+	state = null
+	data = Optional[{}]
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > withData Entry  
+                                                                                                               services
+                                                                                                               available
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > withData Entry  
+                                                                                                               services
+                                                                                                               available
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > validateKey Entry  
+                                                                                                               services
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < validateKey Exit 
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < withData Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = SystemResource
+	state = null
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < withData Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = SystemResource
+	state = null
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > up Entry 
+[7/5/19, 15:06:23:277 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < up Exit  
+                                                                                                               HealthCheckResponseBuilder: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:278 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl > build Entry 
+[7/5/19, 15:06:23:318 CST] 000000a5 id=00000000 com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  > <init> Entry  
+                                                                                                               SystemResource
+                                                                                                               UP
+                                                                                                               Optional[{services=available}]
+[7/5/19, 15:06:23:319 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  < <init> Exit  
+                                                                                                               HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:319 CST] 000000a5 id=09a9102f m.ws.microprofile.health.impl.HealthCheckResponseBuilderImpl < build Exit  
+                                                                                                               HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:320 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl 1 HealthCheck beanClass: class io.openliberty.sample.system.SystemHealth$Proxy$_$$_WeldClientProxy called
+[7/5/19, 15:06:23:320 CST] 000000a5 id=00000000 roprofile.health.services.impl.HealthCheckCDIBeanInvokerImpl < checkAllBeans Exit  
+                                                                                                               [HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]]
+[7/5/19, 15:06:23:320 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  > getState Entry 
+[7/5/19, 15:06:23:320 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  < getState Exit  
+                                                                                                               UP
+[7/5/19, 15:06:23:320 CST] 000000a5 id=00000000 .ibm.ws.microprofile.health.services.impl.HealthExecutorImpl < runHealthChecks RETURN [HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]]
+[7/5/19, 15:06:23:320 CST] 000000a5 id=00000000 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl 3 In performHealthCheck(): hcResponses = [HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder > addResponses Entry  
+                                                                                                               [HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=00000000 .microprofile.health.internal.HealthCheckHttpResponseBuilder 3 addResponsek(): hcResponse = HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder > setChecks Entry  
+                                                                                                               HealthCheckResponse: 
+	name = SystemResource
+	state = UP
+	data = Optional[{services=available}]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  > getName Entry 
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  < getName Exit  
+                                                                                                               SystemResource
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  > getState Entry 
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  < getState Exit  
+                                                                                                               UP
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  > getData Entry 
+[7/5/19, 15:06:23:321 CST] 000000a5 id=5eb4604c com.ibm.ws.microprofile.health.impl.HealthCheckResponseImpl  < getData Exit  
+                                                                                                               Optional[{services=available}]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=00000000 .microprofile.health.internal.HealthCheckHttpResponseBuilder 3 setChecks(): checks = [{data={services=available}, name=SystemResource, state=UP}]
+[7/5/19, 15:06:23:321 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < setChecks Exit 
+[7/5/19, 15:06:23:321 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < addResponses Exit 
+[7/5/19, 15:06:23:321 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder > setHttpResponse Entry  
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletResponse40@79067f90
+[7/5/19, 15:06:23:322 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder > setJSONPayload Entry  
+                                                                                                               {checks=[Ljava.lang.Object;@302dbe94, outcome=UP}
+                                                                                                               com.ibm.ws.webcontainer40.srt.SRTServletResponse40@79067f90
+[7/5/19, 15:06:23:322 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder > getJSON Entry 
+[7/5/19, 15:06:23:357 CST] 0000004a id=00000000 com.ibm.ws.webcontainer.servlet.ServletWrapper               I init SRVE0242I: [getting-started] [/] [io.openliberty.sample.system.SystemApplication]: Initialization successful.
+[7/5/19, 15:06:23:395 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < getJSON Exit  
+                                                                                                               com.ibm.ws.jsonsupport.internal.JSONJacksonImpl@72dab803
+[7/5/19, 15:06:23:412 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < setJSONPayload Exit 
+[7/5/19, 15:06:23:412 CST] 000000a5 id=6a47e013 .microprofile.health.internal.HealthCheckHttpResponseBuilder < setHttpResponse Exit 
+[7/5/19, 15:06:23:412 CST] 000000a5 id=23e63e10 m.ibm.ws.microprofile.health.internal.HealthCheckServiceImpl < performHealthCheck Exit 
+[7/5/19, 15:06:23:412 CST] 000000a5 id=4841e55b m.ws.microprofile.health.internal.servlet.HealthCheckServlet < service Exit 
+[7/5/19, 15:06:23:546 CST] 00000097 id=00000000 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=178)] I Setting the server's publish address to be /metricsOverHTTP/
+[7/5/19, 15:06:23:551 CST] 00000097 id=00000000 com.ibm.ws.webcontainer.servlet.ServletWrapper               I init SRVE0242I: [getting-started] [/] [io.openliberty.sample.metrics.MetricsOverHTTPApplication]: Initialization successful.
+[7/5/19, 15:06:23:578 CST] 00000097 id=00000000 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=178)] I Aries Blueprint packages not available. So namespaces will not be registered

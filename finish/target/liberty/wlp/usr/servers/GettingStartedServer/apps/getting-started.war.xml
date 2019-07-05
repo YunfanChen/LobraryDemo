@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/yunfanchen/Documents/GitHub/Liberty/finish/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/yunfanchen/Documents/GitHub/Liberty/finish/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/yunfanchen/Documents/GitHub/Liberty/finish/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
