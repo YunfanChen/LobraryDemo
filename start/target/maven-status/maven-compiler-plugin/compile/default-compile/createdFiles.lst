@@ -1,4 +1,5 @@
 io/openliberty/sample/metrics/MetricsOverHTTPApplication.class
 io/openliberty/sample/metrics/MetricsOverHTTPResource.class
+io/openliberty/sample/system/SystemHealth.class
 io/openliberty/sample/system/SystemResource.class
 io/openliberty/sample/system/SystemApplication.class

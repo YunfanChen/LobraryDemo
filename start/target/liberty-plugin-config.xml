@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <liberty-plugin-config>
-    <installDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty/wlp</installDirectory>
-    <serverDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty/wlp/usr/servers/GettingStartedServer</serverDirectory>
-    <userDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty/wlp/usr</userDirectory>
-    <serverOutputDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty/wlp/usr/servers/GettingStartedServer</serverOutputDirectory>
+    <activeBuildProfiles>
+        <profileId>docker-image</profileId>
+    </activeBuildProfiles>
+    <installDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty/wlp</installDirectory>
+    <serverDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty/wlp/usr/servers/GettingStartedServer</serverDirectory>
+    <userDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty/wlp/usr/servers/GettingStartedServer</serverOutputDirectory>
     <serverName>GettingStartedServer</serverName>
-    <configDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/src/main/liberty/config</configDirectory>
-    <configFile>/Users/yunfanchen/Documents/GitHub/Liberty/start/src/main/liberty/config/server.xml</configFile>
+    <configDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/src/main/liberty/config</configDirectory>
+    <configFile>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/src/main/liberty/config/server.xml</configFile>
     <bootstrapProperties>
         <app.context.root>getting-started</app.context.root>
         <default.http.port>9080</default.http.port>
@@ -24,9 +27,9 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>/Users/yunfanchen/.m2/repository/io/openliberty/openliberty-runtime/19.0.0.6/openliberty-runtime-19.0.0.6.zip</assemblyArchive>
-    <assemblyInstallDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <installAppsConfigDropins>/Users/yunfanchen/Documents/GitHub/Liberty/start/target/liberty/wlp/usr/servers/GettingStartedServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <installAppsConfigDropins>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/target/liberty/wlp/usr/servers/GettingStartedServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
-    <warSourceDirectory>/Users/yunfanchen/Documents/GitHub/Liberty/start/src/main/webapp</warSourceDirectory>
+    <warSourceDirectory>/Users/yunfanchen/Documents/GitHub/LibertyDemo/start/src/main/webapp</warSourceDirectory>
 </liberty-plugin-config>
